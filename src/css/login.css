@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#box .main {
+  width: 100%;
+}
+#box .main .container {
+  margin: auto;
+  width: 1200px;
+  padding: 30px 0;
+  height: auto;
+}
+#box .main .container .box-frame .box-main {
+  padding: 0px;
+}
+#box .main .container .box-frame .box-main .mod-login-ads {
+  float: left;
+  width: 770px;
+  text-align: center;
+}
+#box .main .container .box-frame .box-main .mod-login {
+  padding: 4px;
+  float: right !important;
+}
+#box .main .container .box-frame .box-main .mod-login .mod-login2 {
+  border: 1px solid #ddd;
+  background: #fff;
+}
+#box .main .container .box-frame .box-main .mod-login .mod-login2 .mod-login-list {
+  padding: 70px 50px 0px 35px;
+  background: url(img/login_text.gif) no-repeat 30px 25px;
+}
+#box .main .container .box-frame .box-main .mod-login .mod-login2 .mod-login-list dl {
+  padding: 8px 0;
+  overflow: hidden;
+}
+#box .main .container .box-frame .box-main .mod-login .mod-login2 .mod-login-list dl dd {
+  line-height: 20px;
+  width: 300px;
+}
+#box .main .container .box-frame .box-main .mod-login .mod-login2 .mod-login-list dl dd .txt-input {
+  color: #666;
+  height: 30px;
+  line-height: 32px;
+  padding: 0 5px;
+  width: 288px;
+  font-size: 14px;
+}
+#box .main .container .box-frame .box-main .mod-login .mod-login2 .mod-login-list dl dd .bd-default {
+  border-left: 1px solid #968D88;
+  border-top: 1px solid #968D88;
+  border-right: 1px solid #CCBFB9;
+  border-bottom: 1px solid #CCBFB9;
+}
+#box .main .container .box-frame .box-main .mod-login .mod-login2 .mod-login-list dl dd .btn-login {
+  background: url(img/btn_login.gif) repeat-x;
+  width: 300px;
+  height: 40px;
+  border: none;
+  display: block;
+  color: #fff;
+  font-family: 'Microsoft Yahei';
+  font-size: 18px;
+  cursor: pointer;
+}
+#box .main .container .box-frame .box-main .mod-login .mod-login2 .mod-login-list dl .logon {
+  font-size: 12px;
+  height: 20px;
+  position: relative;
+  padding-left: 18px;
+  margin-top: 6px;
+}
+#box .main .container .box-frame .box-main .mod-login .mod-login2 .mod-login-list dl .logon input {
+  position: absolute;
+  left: 0;
+  top: 4px;
+}
+#box .main .container .box-frame .box-main .mod-login .mod-login2 .mod-login-list #forget {
+  padding: 2px 0;
+}
+#box .main .container .box-frame .box-main .mod-login .mod-login2 .mod-login-list #forget a {
+  color: #3472B2;
+  font-size: 12px;
+  text-decoration: none;
+}
+#box .main .container .box-frame .box-main .mod-login .mod-login2 .partner {
+  color: #999;
+  padding: 0 30px 10px 30px;
+  border-top: dotted 1px #ccc;
+  margin-top: 15px;
+}
+#box .main .container .box-frame .box-main .mod-login .mod-login2 .partner p.dotline {
+  margin-bottom: 2px;
+  font-size: 12px;
+  line-height: 32px;
+}
+
+/*# sourceMappingURL=login.css.map */

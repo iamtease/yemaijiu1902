@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/list.css">
+</head>
+
+<body>
+    <div id="box">
+       <div id="head"></div>
+        <div class="top">
+            <div class="container">
+                <h2 style="line-height: 40px;font-size: 15px;background: none;">也买严选</h2>
+            </div>
+        </div>
+        <div class="main">
+            <div class="container">
+                <div class="banner">
+                    <img src="../img/20180718163049591.jpg" alt="">
+                </div>
+                <div class="specials">
+                    <div class="showways">
+                        <a href="###" class="first">只显示有货商品</a>
+                        <a href="###" id="default">默认</a>
+                        <a href="###" id="sales">销量
+                            <b class="up"></b>
+                        </a>
+                        <a href="###" class="last" id="price">价格
+                            <b class="up"></b>
+                        </a>
+                    </div>
+
+                </div>
+                <div id="yesmyselect">
+                    <div class="yesmyGoodsList">
+                        <ul id="goodslist">
+                            <!-- <li>
+                                <img src="../img/list1.png" alt="">
+                                <ul>
+                                        <li>
+                                        <p>52°泸州古法特曲酒500ML</p>
+                                        <p></p>
+                                        </li>
+                                        <li><p>好评：100%</p></li>
+                                        <li><p>近期销量：6366</p></li>
+                                        <li><p>￥<span>198.00</span></p></li>
+                                    </ul>
+                                    <div class="btnWrap">
+                                        <input type="button" name="" id="" value="立即购买">
+                                    </div>
+                            </li> -->
+                        </ul>
+                        
+                            <p id="btn">
+                                
+                                <a href="###" id="first">首页</a>
+                                <a href="###" id="pre">上一页</a>
+                                <span id="pages">
+                                   
+                                </span>
+                                <a href="###" id="next">下一页</a>
+                                <a href="###" id="last">尾页</a>
+                                
+                            </p>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="foot"></div>
+    </div>
+</body>
+<script src="../lib/jquery-1.10.1.min.js"></script>
+<script src="../lib/common.js"></script>
+<script src="../js/list.js"></script>
+<script>
+    $(function(){
+        $('#head').load('commhead.html')
+        $('#foot').load('commfoot.html')
+    })()
+</script>
+</html>

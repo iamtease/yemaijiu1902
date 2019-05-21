@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+
+<body>
+    <div id="box">
+      <div id="header">
+
+      </div>
+        <div class="main">
+            <div class="container">
+                <div class="box-main">
+                    <div class="mod-login">
+                        <h2>注册也买酒</h2>
+                        <form action="">
+                            <dl>
+                                <dt>手机号码：</dt>
+                                <dd>
+                                    <input type="text" value="" name="registerMobile" class="txt-input txt-user error" maxlength="11" placeholder="请输入手机号" id="tel">
+                                    <div class="error registerMobileError errorInfo" id="tel-inf">
+                                            <img src="../css/img/icon_error.gif" alt="" style="padding-top: 2px">
+                                        <label for="registerMobile" class="error" id="inf1"></label>
+                                    </div>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>验证码：</dt>
+                                <dd>
+                                    <input type="text" value="" id="ver-inf" name="imgCode" class="txt-input txt-validcode txt-randcode txt-imgCode hint-randcode"
+                                        placeholder="请输入验证码">
+                                    <input type="button" name="" class="ins" id="verification">
+                                    <div class="error imgCodeError hidden errorInfo" id="verif">
+                                            <img src="../css/img/icon_error.gif" alt="" style="padding-top: 2px">
+                                            <label for="registerMobile" class="error" id="inf2"></label>
+                                    </div>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>短信验证码：</dt>
+                                <dd>
+                                    <input type="text" value="" id="smsCode" name="smsCode" class="txt-input txt-validcode txt-randcode txt-smsCode hint-randcode"
+                                        placeholder="请输入验证码">
+                                    <span class="btn btn-style" onclick="javascript:getRandCode();" style="background-color: rgb(244, 95, 3);">获取短信验证码</span>
+                                    <div class="error smsCodeError hidden errorInfo">
+                                            <img src="../css/img/icon_error.gif" alt="" style="padding-top: 2px">
+                                            <label for="registerMobile" class="error" id="inf3"></label>
+                                      
+                                    </div>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>密码：</dt>
+                                <dd>
+                                    <input type="password" value="" id="psw" name="registerPassword" class="txt-input txt-pass hint-pass" placeholder="密码请设为6-16位字母或数字">
+                                    <div class="error registerPasswordError hidden errorInfo" id="psw-inf">
+                                            <img src="../css/img/icon_error.gif" alt="" style="padding-top: 2px">
+                                            <label for="registerMobile" class="error" id="inf4"></label>
+                                    </div>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>密码确认：</dt>
+                                <dd>
+                                    <input type="password" value="" id="repsw" name="registerPasswordRepeat" class="txt-input txt-pass2 hint-pass2" placeholder="请再次输入登录密码">
+                                    <div class="error registerPasswordRepeatError hidden errorInfo" id="repsw-inf">
+                                            <img src="../css/img/icon_error.gif" alt="" style="padding-top: 2px">
+                                            <label for="registerMobile" class="error" id="inf5"></label>
+                                            
+                                    </div>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <label id="vip">
+                                    <input type="checkbox" value="1" name="toBeVip" class="chk-vip">
+                                    <span>我有VIP升级码</span>
+                                </label>
+                                <div id="vipinfo">
+                                    <dt>升 级 码：</dt>
+                                    <dd>
+                                        <input type="password" value="" name="yjhId" class="txt-input txt-passcode valid hint-passcode">
+                                        <div class="error yjhIdError errorInfo hidden"></div>
+                                    </dd>
+                                </div>
+                            </dl>
+                            <dl id="vip2">
+                                <label>
+                                    <input type="checkbox" value="1" name="confirmClause" class="chk-clause" checked="true">
+                                    <span class="accept">我已满18周岁并接受</span>
+                                    <a title="也买酒服务条款" href="###" class="blue">《也买酒服务条款》</a>
+                                    <div class="error confirmClauseError hidden errorInfo"></div>
+                                </label>
+                            </dl>
+                            <dl>
+                                <p class="btn-register" disabled="false">注册完成</p>
+                            </dl>
+                        </form>
+                    </div>
+                    <div class="mod-login-note fr">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer"></div>
+    </div>
+</body>
+<script src="../lib/jquery-1.10.1.min.js"></script>
+
+<script>
+    (function(){
+        $('#header').load('rehead.html');
+        $('#footer').load('refoot.html')
+    })()
+</script>
+<script src="../js/register.js"></script>
+</html>

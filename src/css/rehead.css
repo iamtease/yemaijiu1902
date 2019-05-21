@@ -1,0 +1,18 @@
+#box .header {
+    width: 100%;
+    height: 97px;
+    border-bottom: 2px solid #bc0e31;
+  }
+  #box .header .container {
+    width: 1200px;
+    height: auto;
+    padding: 20px 0;
+    margin: auto;
+  }
+  #box .header .container h2 {
+    float: left;
+  }
+  #box .header .container .right {
+    float: right;
+  }
+  

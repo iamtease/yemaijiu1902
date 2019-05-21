@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    /* background: pink; */
+}
+#box2{
+    width: 100%;
+}
+
+
+#box2 .footer{
+    width: 100%;
+    height: 450px;
+    background:#e8e8e8;
+}
+.foot-col1 {
+    width: 1200px;
+    height: 70px;
+    border-bottom: 1px solid #d3161b;
+    padding: 0;
+    padding-top: 50px;
+    border-left: none;
+    float: left;
+}
+.foot-col1 h2 {
+    width: 240px;
+    height: 70px;
+    font-size: 30px;
+    color: #d3161b;
+    font-weight: normal;
+    margin-left: 0;
+    float: left;
+    text-indent: 10px;
+}
+.foot-col1 a {
+    float: left;
+    padding: 0;
+    text-indent: 50px;
+    display: block;
+    margin-bottom: 20px;
+  
+    height: 38px;
+}
+.foot-col1 a h3 {
+    font-size: 20px;
+    color: #d3161b;
+    line-height: 40px;
+}
+.foot-col1 a.zp {
+    width: 195px;
+    background:url(img/icon3.png) no-repeat;
+    background-position: -109px 0;
+}
+.foot-col1 a.th {
+    width: 219px;
+    background:url(img/icon3.png) no-repeat;
+    background-position: -109px -38px;
+}
+.foot-col1 a.hw {
+    width: 225px;
+    background:url(img/icon3.png) no-repeat;
+    background-position: -109px -76px;
+}
+.foot-col1 a.free {
+    width: 190px;
+    background:url(img/icon3.png) no-repeat;
+    background-position: -109px -114px;
+
+}
+.foot-col1 a.mf {
+    width: 130px;
+    background:url(img/icon3.png) no-repeat;
+    background-position: -109px -152px;
+}
+.foot-col2 {
+    width: 960px;
+    padding: 0;
+    margin: 0;
+    border-left: none;
+    margin-top: 30px;
+    height: 270px;
+    float: left;
+}
+.foot-main .foot-col2 .foot-ul {
+    width: 960px;
+    margin: 0;
+}
+.foot-col2 .foot-ul li{
+    float: left;
+    padding: 0;
+    width: 120px;
+    height: 180px;
+}
+.foot-col2 .foot-ul li h3 {
+    font-size: 14px;
+    font-family: 'microsoft yahei';
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+}
+.foot-ul li p {
+    line-height: 20px;
+    margin-bottom: 2px;
+    color: #666;
+    font-size: 12px;
+}
+
+.foot-col2 .foot-ul li a {
+    font-size: 12px;
+    font-weight: normal;
+    font-family: 'microsoft yahei';
+    line-height: 22px;
+    display: block;
+    color: #666;
+}
+.foot-ul li .letter {
+    
+    background: url(img/weixin.png) no-repeat;
+}
+.foot-col3 {
+    width: 240px;
+    margin-top: 40px;
+    padding: 0;
+    border: none;
+    height: 270px;
+    float: left;
+}
+.mobile{
+    width: 240px;
+    height: 30px;
+}
+.foot-col3 .mobile a {
+    float: left;
+    margin-right: 15px;
+    height: 30px;
+    background-image: url(img/icon.png);
+    background-repeat: no-repeat;
+    width: 105px;  
+}
+.mobile a.android {
+    background-position: 0 -29px;
+}
+.foot-col3 .mobile a.app2 {
+    background-position: 0 0;
+}
+.foot-col3 .code {
+    margin-top: 20px;
+}
+.foot-col3 .code dt {
+    float: left;
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+    background: url(img/icon3\ \(1\).png) 0 -200px no-repeat;
+    text-indent: -999em;
+}
+.foot-col3 .code dd {
+    display: block;
+    margin-left: 110px;
+    color: #666;
+}
+.foot-col3 .code dd p {
+    float: left;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+    background: url(img/icon3\ \(1\).png) 0 -300px no-repeat;
+    text-indent: -999em;
+    margin-top: -2px;
+}

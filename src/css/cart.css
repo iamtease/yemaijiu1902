@@ -1,0 +1,523 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 960px;
+    height: 100%;
+    margin: auto;
+    /* background: pink; */
+}
+#box{
+    width: 100%;
+}
+#box .header{
+    width: 100%;
+    height: 165px;
+   
+}
+/* 登录条 */
+.header .loginbar{
+    width: 100%;
+    height: 30px;
+    background: #ede7e3;
+    position: relative;
+}
+.loginbar .users{
+    font-size: 12px;
+    line-height: 30px;
+    float: left;
+}
+.loginbar .users .span1{
+    color: #cc3f4c;
+}
+.loginbar .users .span2{
+    color: #85726c;
+   
+}
+.loginbar .log-res{
+    float: left;
+    font-size: 12px;
+    line-height: 30px;
+    margin-left: 18px;
+}
+.loginbar .log-res li{
+    float: left;
+    margin-right: 8px;
+}
+.loginbar .log-res a{
+    cursor: pointer;
+    color: #85726c;
+}
+.loginbar .log-res li:nth-child(3){
+    font-weight: 800;
+}
+.loginbar .log-res li:nth-child(2n-1):hover a{
+    color: #cc3f4c;
+}
+#return{
+    display: none;
+}
+#inf{
+    display: none;
+}
+.loginbar .rightsidebar{
+    float: right;
+    
+}
+.loginbar .rightsidebar li{
+    float: left;
+    font-size: 12px;
+    line-height: 30px;
+    margin-right: 8px;
+}
+.loginbar .rightsidebar li:nth-child(2n-1){
+    cursor: pointer;
+    color: #85726c;
+}
+.loginbar .rightsidebar li:nth-child(2n-1):hover{
+    color: #cc3f4c;
+}
+.loginbar .rightsidebar li:nth-child(3),li:nth-child(9){
+    font-weight: 1000;
+}
+.loginbar .rightsidebar li:nth-child(5){
+    position: relative;
+}
+.loginbar .rightsidebar li:nth-child(5) img{
+  position: relative;
+  left: 3px;
+  top: -2px;
+}
+.loginbar .rightsidebar li:nth-child(7){
+    position: relative;
+}
+.loginbar .rightsidebar li:nth-child(7) img{
+    position: relative;
+    left: -1px;
+    top: 3px;
+  }
+/* 账户下拉菜单 */
+.loginbar .acc-inf{
+    width: 100px;
+    background: #fff;
+    position: absolute;
+    top: 30px;
+    right: 188px;
+    padding: 5px 0;
+    font-size: 12px;
+    line-height: 24px;
+    display: none;
+    z-index: 100;
+}
+.loginbar .acc-inf li{
+    height: 24px;
+    padding: 0 8px;
+    cursor: pointer;
+}
+.loginbar .acc-inf li:hover{
+    background: #cc3f4c;
+    color: #fff;
+}
+/* app下拉菜单 */
+.loginbar .app{
+    background: #fff;
+    position: absolute;
+    width: 280px;
+    top: 30px;
+    right: -70px;
+    overflow: hidden;
+    display: none;
+    z-index: 10000;
+}
+.loginbar .app .app-top{
+    padding: 5px 10px;
+    font-size: 12px;
+    height: 18px;
+    line-height: 18px;
+    color: #58726c;
+}
+.loginbar .app .app-center dl{
+    background: #c5bcbc;
+}
+.loginbar .app .app-center dl dt:nth-child(1){
+    float: left;
+    width: 110px;
+    height: 110px;
+    padding: 5px 10px;
+  
+}
+.loginbar .app .app-center dl dt:nth-child(2) h2{
+    font-size: 12px;
+    padding: 5px 0;
+}
+.loginbar .app .app-center dl dt:nth-child(2) img:nth-child(2){
+    margin-top: 10px;
+}
+.loginbar .app .app-foot a{
+    height: 18px;
+    line-height: 18px;
+    font-size: 12px;
+    color: #0695d9;
+    padding: 0 10px;
+}
+.head-main{
+    height: 100px;
+    width: 100%;
+    border-bottom: solid 2px #7e0001;
+    margin-bottom: 20px;
+    background: #ede7e3;
+}
+.head-main .head-logo{
+    float: left;
+    width: 160px;
+    display: inline;
+    
+}
+.head-main .head-logo .logo-site{
+    display: block;
+    height: 100px;
+}
+.crumbCart{
+    width: 479px;
+    float: right;
+    height: 39px;
+    margin: 30px 0;
+    background: url(img/cart_step.png) no-repeat;
+    text-indent: -999px;
+    overflow: hidden;
+}
+.main{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    min-width: 960px;
+    background: #fff;
+}
+.pb20 {
+    padding-bottom: 20px;
+}
+.listCart, .listCart h1, .listCart ul {
+    width: 960px;
+    float: left;
+}
+.listCart .list{
+    display: none;
+}
+.listCart h1 {
+    height: 43px;
+    font: normal normal 12px/32px \5b8b\4f53;
+}
+.listCart .radio_zk {
+    border-bottom: 0;
+    background-color: transparent;
+}
+.listCart .radio {
+    padding: 5px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 30px;
+    background-color: #f1eeeb;
+}
+.listCart .dd_sp_num {
+    position: relative;
+    float: right;
+    display: block;
+    margin-top: 7px;
+    width: 70px;
+    height: 17px;
+    background: url(img/cart_icon.png) 0 -86px no-repeat;
+    color: #fff;
+    text-align: center;
+    font-weight: normal;
+    line-height: 17px;
+    cursor: pointer;
+}
+.listCart ul li {
+    width: 960px;
+    float: left;
+    margin: 5px;
+    display: inline;
+}
+.listCart .cartList{
+    border: 5px solid #bbb;
+}
+b, strong {
+    font-weight: bold;
+    font-size: 12px;
+}
+.listCart .radio_zk .dd_sp_num i {
+    top: 1px;
+    border: 5px solid #c75050;
+    border-bottom-color: #fff;
+    position: absolute;
+   
+    right: 7px;
+    display: block;
+    width: 0;
+    height: 0;
+}
+.listCart .radio .radio_lf {
+    float: left;
+    height: 30px;
+}
+.listCart .radio .radio_lf input {
+    float: left;
+    height: 30px;
+    vertical-align: middle;
+}
+.listCart .radio .radio_lf label b {
+    display: inline-block;
+    margin-right: 5px;
+    width: 16px;
+    height: 16px;
+    background: url(img/radio.png) center center no-repeat;
+    vertical-align: middle;
+}
+.listCart ul li .top {
+    width: 960px;
+    float: left;
+    font-size: 12px;
+}
+.listCart .top .boxBorRed {
+    width: 960px;
+    border-top: 2px solid #85726c;
+}
+.listCart .top .trTitle {
+    position: relative;
+    z-index: 51;
+}
+.listCart .top .trTitle table {
+    background-color: #f1eeeb;
+}
+table, tbody, tfoot, thead, tr, th, td {
+    border-collapse: collapse;
+    border-spacing: 0;
+    padding: 0px;
+    margin: 0px;
+}
+.listCart .top .boxBorRed table td {
+    padding: 0 5px;
+    text-align: center;
+}
+.listCart .top table.inTable {
+    float: left;
+    width: 960px;
+    font-family: Arial;
+}
+.listCart .top table tr.border {
+    background-image: url(img/xuxianX.gif);
+    background-position: top;
+    background-repeat: repeat-x;
+}
+.listCart .top table.inTable td.btn_fx {
+    vertical-align: middle;
+    text-align: center;
+}
+.listCart .top table.inTable td {
+    padding: 10px 0 10px 0;
+}
+.listCart .top table.inTable td.left {
+    padding-left: 10px;
+    color: #666;
+    text-align: left;
+    font: normal normal 12px/24px Arial;
+}
+.listCart .top table.inTable td.left {
+    padding-left: 10px;
+    color: #666;
+    text-align: left;
+    font: normal normal 12px/24px Arial;
+}
+.listCart .top table.inTable td.left a.title {
+    color: #000;
+    font-size: 12px;
+}
+ table td b {
+    margin-left: 2px;
+    color: #333;
+    font-size: 16px;
+}
+.listCart .top table.inTable td .jj_box {
+    position: relative;
+    float: left;
+    margin-left: 30px;
+    width: 58px;
+    height: 24px;
+    color: #000;
+}
+.listCart .top table.inTable td a.left {
+    float: left;
+    display: inline;
+    margin-right: 0;
+    background-position: 0 -134px;
+}
+.listCart .top table.inTable td a.left, .listCart .top table.inTable td a.right {
+    overflow: hidden;
+    display: inline-block;
+    margin-top: 0;
+    width: 13px;
+    height: 24px;
+    background-image: url(img/cart_icon.png);
+    background-position: 0 -107px;
+    text-indent: -999px;
+}
+.listCart .top table.inTable td input {
+    float: left;
+    /* display: inline; */
+    margin: 0;
+    padding: 0;
+    width: 30px;
+    height: 22px;
+    border: 1px solid #bea9a0;
+    color: #666;
+    text-align: center;
+    font-size: 12px;
+}
+.listCart .top table.inTable td a.right {
+    background-position: -45px -107px;
+}
+.listCart .top table.inTable td.xj_price {
+    color: #c75050;
+}
+.listCart .top table.inTable td.btn_edit a {
+    color: #3172b2;
+    cursor: pointer;
+}
+.listCart .top .trFooter {
+    position: relative;
+    z-index: 49;
+    float: left;
+    display: inline;
+    border-top: 1px dotted #9e9694;
+    background-color: #f1eeeb;
+}
+/* .cartList ul {
+    padding: 15px;
+    width: 928px;
+    border: 1px solid #ccc;
+    float: left;
+} */
+.listCart .top .trFooter ul{
+    padding: 15px;
+    width: 928px;
+    border: 1px solid #ccc;
+}
+.listCart .top .trFooter li {
+    float: left;
+    margin: 0;
+    padding: 0 15px 0 5px;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+}
+/* 结算 */
+#floatNav_buy {
+    width: 100%;
+    z-index: 100001;
+}
+.listCart-fixed {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    margin-left: -50%;
+    background: #eee;
+    box-shadow: 0 -3px 10px rgba(0,0,0,0.2);
+}
+#floatNav_buy .listCart, .listCart h1, .listCart ul {
+    width: 960px;
+    float: left;
+}
+#floatNav_buy ul {
+    padding: 10px 0;
+    margin: 0 auto;
+    float: none;
+    width: 960px;
+}
+.listCart ul li {
+    width: 960px;
+    float: left;
+    margin: 5px 0 15px;
+    display: inline;
+}
+.listCart ul li.buy a.buy {
+    float: right;
+    margin-right: 0;
+    width: 210px;
+    border: 0;
+    background: url(img/cart_icon.png) 0 0 no-repeat;
+    color: #fff;
+    font-size: 22px;
+    font-family: microsoft yahei;
+}
+.listCart ul li.buy a.buy_bc {
+    position: relative;
+    width: 150px;
+    background: url(img/cart_icon.png) 7px -189px no-repeat;
+    font-size: 12px;
+}
+.listCart ul li.buy a, .listCart ul li.buy .buy_yhq_y {
+    float: left;
+    display: inline;
+    margin-right: 10px;
+    height: 50px;
+    background-image: none;
+    color: #fff;
+    color: #666;
+    text-align: center;
+    font: normal 14px/40px \5b8b\4f53;
+    line-height: 50px;
+    cursor: pointer;
+}
+.listCart ul li.buy .buy_yhq_y, .listCart ul li.buy a.buy_yhq_n {
+    position: relative;
+    padding: 0 10px;
+    width: 180px;
+    text-align: left;
+    font-size: 12px;
+    color: #d63939;
+}
+.listCart ul li.buy .buy_yhq_y {
+    background: url(img/cart_icon.png) 8px -227px no-repeat;
+    text-indent: 22px;
+}
+.listCart ul li.buy a.total_price {
+    float: right;
+    width: auto;
+    border: 0;
+    font-size: 12px;
+    cursor: default;
+    margin-right: 0;
+}
+.listCart ul li.buy a.total_price b {
+    color: #d63939;
+    font-size: 24px;
+}
+.listCart ul li.buy a.total_price em {
+    color: #999;
+    font-style: normal;
+}
+.listCart ul li.buy a.total_price i {
+    color: #d63939;
+    font-size: 14px;
+    font-style: normal;
+}
+#sub{
+    float: left;
+}
+#num{
+    float: left;
+}
+#add{
+    float: left;
+}
+#floatNav_buy{
+    display: none;
+}

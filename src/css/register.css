@@ -1,0 +1,226 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*头部*/
+
+#box .main {
+  width: 100%;
+}
+#box .main .container {
+  margin: auto;
+  width: 1200px;
+  padding: 20px 0;
+  height: auto;
+}
+#box .main .container .box-main {
+  /*注册*/
+  width: 1200px;
+  height: 523px;
+}
+#box .main .container .box-main .mod-login {
+  float: left;
+  overflow: hidden;
+  padding: 20px 10px;
+  width: 378px;
+  border: 1px solid #d2d2ce;
+  background: #f8f8f5;
+}
+#box .main .container .box-main .mod-login h2 {
+  margin: 0 12px 18px 12px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #d2d2ce;
+  text-align: left;
+  font-size: 14px;
+}
+#box .main .container .box-main .mod-login dl {
+  padding: 7px 0;
+  overflow: hidden;
+}
+#box .main .container .box-main .mod-login dl dt {
+  float: left;
+  width: 90px;
+  height: 38px;
+  color: #363636;
+  text-align: right;
+  font-size: 14px;
+  line-height: 38px;
+}
+#box .main .container .box-main .mod-login dl dd {
+  margin-left: 88px;
+  line-height: 20px;
+}
+#box .main .container .box-main .mod-login dl dd .txt-input {
+  padding: 0 5px;
+  width: 270px;
+  height: 38px;
+  color: #666;
+  font-size: 12px;
+  line-height: 38px;
+  float: left;
+}
+#box .main .container .box-main .mod-login dl dd div {
+  display: inline-block;
+  color: Red;
+  font-size: 12px;
+  margin-left: 5px;
+  padding-left: 0px;
+  display: none;
+}
+#box .main .container .box-main .mod-login dl dd .txt-validcode {
+  width: 165px;
+}
+#box .main .container .box-main .mod-login dl dd .ins {
+  float: left;
+  height: 43px;
+  line-height: 40px;
+  width: 105px;
+  outline: none;
+  background: #333;
+  border: none;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+#box .main .container .box-main .mod-login dl dd .btn-style {
+  background: #e3e3e3;
+  color: #fff;
+  margin-bottom: 2px;
+}
+#box .main .container .box-main .mod-login dl dd .btn {
+  width: 100px;
+  height: 42px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  cursor: pointer;
+  font-size: 12px;
+}
+#box .main .container .box-main .mod-login dl dd .btn:hover {
+  text-decoration: underline;
+}
+#box .main .container .box-main .mod-login dl #vip {
+  position: relative;
+  display: inline-block;
+  margin: 8px 0 9px 88px;
+  width: auto;
+  height: 14px;
+  line-height: 14px;
+  margin-left: 80px;
+}
+#box .main .container .box-main .mod-login dl #vip input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 14px;
+  height: 14px;
+}
+#box .main .container .box-main .mod-login dl #vip span {
+  position: absolute;
+  top: 0;
+  left: 17px;
+  width: 110px;
+  height: 14px;
+  text-align: left;
+  line-height: 14px;
+  font-size: 12px;
+  color: #333;
+}
+#box .main .container .box-main .mod-login dl #vipinfo {
+  display: none;
+  margin: 5px 10px;
+  padding: 10px 10px;
+  width: 335px;
+  border: solid 1px #eedaae;
+  background: #ffffe8;
+  height: auto;
+  overflow: hidden;
+}
+#box .main .container .box-main .mod-login dl #vipinfo dt {
+  float: left;
+  width: 65px;
+  height: 38px;
+  color: #363636;
+  text-align: right;
+  font-size: 14px;
+  line-height: 38px;
+}
+#box .main .container .box-main .mod-login dl #vipinfo dd {
+  margin-left: 66px;
+  line-height: 20px;
+}
+#box .main .container .box-main .mod-login dl #vipinfo dd .txt-input {
+  padding: 0 5px;
+  width: 250px;
+  height: 36px;
+  color: #666;
+  font-size: 12px;
+  line-height: 36px;
+  float: left;
+}
+#box .main .container .box-main .mod-login #vip2 {
+  position: relative;
+  display: block;
+  margin-left: 88px;
+  padding: 8px 0 13px 0;
+  width: 290px;
+  height: 14px;
+  line-height: 14px;
+}
+#box .main .container .box-main .mod-login #vip2 input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 14px;
+  height: 14px;
+}
+#box .main .container .box-main .mod-login #vip2 span.accept {
+  position: absolute;
+  top: 0;
+  left: 17px;
+  width: 120px;
+  height: 14px;
+  text-align: left;
+  line-height: 14px;
+  font-size: 12px;
+  color: #333;
+}
+#box .main .container .box-main .mod-login #vip2 a {
+  position: absolute;
+  top: 0;
+  left: 140px;
+  width: 130px;
+  height: 14px;
+  color: #06c;
+  text-align: left;
+  line-height: 14px;
+  font-size: 12px;
+  text-decoration: none;
+}
+#box .main .container .box-main .mod-login .btn-register {
+  display: block;
+  margin-right: 0;
+  margin-left: 10px;
+  width: 355px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  border: 0;
+  background: #bb0e30;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+#box .main .container .box-main .mod-login-note {
+  position: relative;
+  overflow: hidden;
+  width: 790px;
+  height: 480px;
+  background: url(img/register_ads.jpg) no-repeat;
+}
+
+
+/*# sourceMappingURL=register.css.map */

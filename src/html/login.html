@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="../js/index.js"></script>
+</head>
+
+<body>
+    <div id="box">
+        <div id="header"></div>
+        <div class="main">
+            <div class="container">
+                <div class="box-frame">
+                    <div class="box-main" style="height: 404px;">
+                        <div class="mod-login-ads" id="login_ads">
+                            <a href="###">
+                                <img src="../img/20180822131004313.jpg" alt="新客专享" border="0" style="margin-top: 2px;">
+                            </a>
+                        </div>
+                        <div class="mod-login">
+                            <div class="mod-login2" style="opacity: 1;display: block;">
+                                <div class="mod-login-list">
+                                    <form action="" id="loginFrm" class="frm-login">
+                                        <dl>
+                                            <dd>
+                                                <input type="text" id="tel" value="" name="loginName" autocomplete="off" class="txt-input txt-user bd-default hint-user" placeholder="请输入手机号">
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dd>
+                                                <input type="password" id="psw" value="" name="loginPassword" autocomplete="off" class="txt-input txt-pass bd-default hint-password"
+                                                    placeholder="请输入密码">
+                                            </dd>
+                                        </dl>
+                                        <dl style="padding-top: 0">
+                                            <dd class="logon">
+                                                <input type="checkbox" name="flagLoginSelf" data-dts="R402" value="1">自动登录
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dd>
+                                                <button type="button" data-dts="R403" class="btn-login" id="btn-login">登&nbsp;&nbsp;&nbsp;录</button>
+                                            </dd>
+                                        </dl>
+                                        <dl id="forget">
+                                            <dd>
+                                                <a id="forget-password" href="###" title="忘记密码">[忘记密码？]</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                                <a href="register.html" target="_blank">[注册新账号]</a>
+                                            </dd>
+                                        </dl>
+                                    </form>
+                                </div>
+                                <div class="partner">
+                                    <p class="dotline" id="dotline">使用合作网站账号登录：</p>
+                                    <p><img src="../css/img/icons.png" alt=""></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer"></div>
+    </div>
+</body>
+<script src="../lib/common.js"></script>
+<script src="../lib/jquery-1.10.1.min.js"></script>
+<script src="../js/login.js"></script>
+<script>
+    (function(){
+        $('#header').load('rehead.html');
+        $('#footer').load('refoot.html')
+    })()
+</script>
+
+</html>

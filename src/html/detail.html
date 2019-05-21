@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/magnifier.css">
+    <link rel="stylesheet" href="../css/detail.css">
+    <style>
+        .magnifier {
+            width: 378px;
+            margin-top: 30px;
+            margin-left: 10px;
+        }
+
+        .magnifier-container {
+            width: 378px;
+            height: 438px;
+            overflow: hidden;
+            position: relative;
+            border: 1px solid #ddd;
+        }
+
+        .magnifier-line li {
+            float: left;
+            width: 70px;
+            height: 70px;
+            cursor: pointer;
+        }
+
+        .magnifier-view {
+            height: 82%;
+            background: none;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box">
+        <div id="head"></div>
+        <div class="main">
+            <div class="container">
+                <div class="left">
+                    <div class="magnifier" id="magnifier1">
+                        <div class="magnifier-container">
+                            <div class="images-cover"></div>
+                            <!--当前图片显示容器-->
+                            <div class="move-view"></div>
+                            <!--跟随鼠标移动的盒子-->
+                        </div>
+                        <div class="magnifier-assembly">
+                            <div class="magnifier-btn">
+                                <span class="magnifier-btn-left">&lt;</span>
+                                <span class="magnifier-btn-right">&gt;</span>
+                            </div>
+                            <!--按钮组-->
+                            <div class="magnifier-line">
+                                <ul class="clearfix animation03">
+                                    <li>
+                                        <div class="small-img">
+                                            <img src="../img/bbig1-1.png" />
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <!--缩略图-->
+                        </div>
+                        <div class="magnifier-view"></div>
+                        <!--经过放大的图片显示容器-->
+                    </div>
+                </div>
+                <div class="right">
+                    <div id="part">
+                        <div class="promotionMiddleTop">
+                            <ul class="pro-name">
+                                <li>
+                                    <h1>52°泸州古法特曲酒</h1>
+                                </li>
+                            </ul>
+                            <ul class="pro-info">
+                                <li class="mt10">
+                                    <dl class="comment-score">
+                                        <dt>商品评分:</dt>
+                                        <dd>
+                                            <img src="../img/pingfn.jpg" alt="">
+                                        </dd>
+                                    </dl>
+                                    <div class="pro-data">
+                                        <span>评论数:
+                                            <a href="###">0</a>
+                                        </span>
+                                        <span>近期售出数 6390</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="promotionMiddleCenter clearfix">
+                            <li class="w560 explain">
+                                <span class="ml_memberLevel ml_MEMBER_LEVEL_NORMAL">
+                                    也买价:
+                                    <b class="myPrice currentFont red">¥
+                                        <em>198.00</em>
+                                    </b>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="promotionMiddleProprietary_Serv">
+                        <span>
+                            <label class="service1"></label>自营商品
+                        </span>
+                        <a href="####" target="_blank">
+                            <label class="service2"></label>可存酒库</a>
+                        <a href="####" target="_blank">
+                            <label class="service3"></label>满99包邮</a>
+                    </div>
+                    <div class="promotionMiddleKey" id="proChange1">
+                        <div class="promotionMiddleKeyD" id="proChange2">
+                            <ul>
+                                <li id="sameNameLi"></li>
+                                <li>
+                                    <span>配送城市：</span>
+                                    <span id="area-selector" class="cityBnt">
+                                        <span>广东省</span>
+                                        <i></i>
+                                        <ins></ins>
+                                    </span>
+                                    <ins id="delivery-tip" class="have" style="display: inline;">
+                                        <b></b>
+                                        有货
+                                    </ins>
+                                    <div id="listDown" class="proCity" style="top: 28px;">
+                                        <div id="area-selector-child" class="collapsed">
+                                            <ol id="ol1" class="proCityList">
+                                                <dd>
+                                                    <p>
+                                                        <a areaid="1" href="###" class="choose-areaName">上海市</a>
+                                                    </p>
+                                                    <p>
+                                                        <a areaid="5" href="###" class="choose-areaName">北京市</a>
+                                                    </p>
+                                                    <p>
+                                                        <a areaid="9" href="###" class="choose-areaName">广东省</a>
+                                                    </p>
+                                                    <p>
+                                                        <a areaid="17" href="###" class="choose-areaName">天津市</a>
+                                                    </p>
+                                                    <p>
+                                                        <a areaid="20" href="###" class="choose-areaName">河北省</a>
+                                                    </p>
+                                                    <p>
+                                                        <a areaid="23" href="###" class="choose-areaName">山西省</a>
+                                                    </p>
+                                                    <p>
+                                                        <a areaid="26" href="###" class="choose-areaName">内蒙古</a>
+                                                    </p>
+                                                    <p>
+                                                        <a areaid="29" href="###" class="choose-areaName">辽宁省</a>
+                                                    </p>
+                                                    <p>
+                                                        <a areaid="32" href="###" class="choose-areaName">吉林省</a>
+                                                    </p>
+                                                    <p>
+                                                        <a areaid="35" href="###" class="choose-areaName">黑龙江省</a>
+                                                    </p>
+                                                    <p>
+                                                        <a areaid="41" href="###" class="choose-areaName">江苏省</a>
+                                                    </p>
+                                                    <p>
+                                                        <a areaid="44" href="###" class="choose-areaName">浙江省</a>
+                                                    </p>
+                                                    <p>
+                                                        <a areaid="47" href="###" class="choose-areaName">安徽省</a>
+                                                    </p>
+                                                    <p>
+                                                        <a areaid="50" href="###" class="choose-areaName">福建省</a>
+                                                    </p>
+                                                    <p>
+                                                        <a areaid="53" href="###" class="choose-areaName">江西省</a>
+                                                    </p>
+                                                    <p>
+                                                        <a areaid="56" href="###" class="choose-areaName">山东省</a>
+                                                    </p>
+                                                    <p>
+                                                        <a areaid="59" href="###" class="choose-areaName">河南省</a>
+                                                    </p>
+                                                    <p>
+                                                        <a areaid="62" href="###" class="choose-areaName">湖北省</a>
+                                                    </p>
+                                                    <p>
+                                                        <a areaid="65" href="###" class="choose-areaName">湖南省</a>
+                                                    </p>
+                                                    <p>
+                                                        <a areaid="68" href="###" class="choose-areaName">重庆市</a>
+                                                    </p>
+                                                    <p>
+                                                        <a areaid="71" href="###" class="choose-areaName">四川省</a>
+                                                    </p>
+                                                    <p>
+                                                        <a areaid="74" href="###" class="choose-areaName">贵州省</a>
+                                                    </p>
+                                                    <p>
+                                                        <a areaid="77" href="###" class="choose-areaName">云南省</a>
+                                                    </p>
+                                                    <p>
+                                                        <a areaid="80" href="###" class="choose-areaName">西藏</a>
+                                                    </p>
+                                                    <p>
+                                                        <a areaid="83" href="###" class="choose-areaName">陕西省</a>
+                                                    </p>
+                                                    <p>
+                                                        <a areaid="86" href="###" class="choose-areaName">甘肃省</a>
+                                                    </p>
+                                                    <p>
+                                                        <a areaid="89" href="###" class="choose-areaName">青海省</a>
+                                                    </p>
+                                                    <p>
+                                                        <a areaid="92" href="###" class="choose-areaName">宁夏</a>
+                                                    </p>
+                                                    <p>
+                                                        <a areaid="95" href="###" class="choose-areaName">新疆维吾尔自治区</a>
+                                                    </p>
+                                                    <p>
+                                                        <a areaid="101" href="###" class="choose-areaName">广西</a>
+                                                    </p>
+                                                    <p>
+                                                        <a areaid="104" href="###" class="choose-areaName">海南省</a>
+                                                    </p>
+                                                </dd>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li id="online-getWineNum">
+                                    <span>选择数量：</span>
+                                    <input type="button" name="" id="sub" value="-" class="sub">
+                                    <input type="text" name="" id="num" value="1" class="num">
+                                    <input type="button" name="" id="add" value="+" class="add">
+                                </li>
+                                <li class="h44">
+                                    <a class="btn-add-cart" id="addCart"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="foot"></div>
+    </div>
+    <div id="right">
+        <div class="ym-nBar-tab ym-nBar-tab-user" style="top: 102px">
+            <div class="ym-nBar-user-default"></div>
+        </div>
+        <div class="ym-nBar-tab ym-nBar-tab-cart" style="top: 139px">
+            <a href="cart.html" target="_blank" data-dts="S8">
+                <div class="ym-nBar-cart-logo"></div>
+                <div class="ym-nBar-cart-txt">购物车</div>
+                <div class="ym-nBar-cart-num">
+                    <em id="cartnum"></em>
+                </div>
+            </a>
+        </div>
+        <div class="ym-nBar-tab ym-nBar-tab-asset" style="top: 251.6px;">
+            <a href="###" data-dts="S5" target="_blank">
+                <div class="ym-nBar-asset-logo"></div>
+            </a>
+            <div class="ym-nBar-pop ym-nBar-pop-tip">
+                我的资产
+                <div class="ym-nBar-pop-icon">◆</div>
+            </div>
+        </div>
+        <div class="ym-nBar-tab ym-nBar-tab-charge" style="top: 286.6px;">
+            <a href="###" data-dts="S6" target="_blank">
+                <div class="ym-nBar-charge-logo"></div>
+            </a>
+            <div class="ym-nBar-pop ym-nBar-pop-tip">
+                账户充值
+                <div class="ym-nBar-pop-icon">◆</div>
+            </div>
+        </div>
+        <div class="ym-nBar-tab ym-nBar-tab-chat" style="top: 322px">
+            <div class="ym-nBar-chat-logo"></div>
+        </div>
+        <div class="ym-nBar-tab ym-nBar-tab-valid" style="top: 357px">
+            <div class="ym-nBar-valid-logo"></div>
+        </div>
+        <div class="ym-nBar-tab ym-nBar-tab-qrcode hidden">
+            <div class="ym-nBar-qrcode-logo"></div>
+            <div class="ym-nBar-pop erweima">
+                <div class="ym-nBar-pop-qrcode">
+                    <img src="../img/code.png" alt="二维码">
+                </div>
+            </div>
+        </div>
+        <div class="login">
+
+        </div>
+    </div>
+</body>
+<script src="../lib/common.js"></script>
+<script src="../lib/jquery-1.10.1.min.js"></script>
+<script src="../lib/magnifier.js"></script>
+<script src="../js/detail.js"></script>
+<script>
+    $(function () {
+        $('#head').load('commhead.html', function () {
+            $('.container').css('width', '960px');
+            $('#dongtai').css('display', 'none')
+            $('.logo').css('width', '160px')
+            $('.logo img').css('width', '160px')
+        });
+        $('#foot').load('commfoot.html', function () {
+            $('.footer').css('background', '#fff')
+        })
+
+    })()
+</script>
+
+</html>

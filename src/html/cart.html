@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="../css/cart.css">
+</head>
+
+<body>
+    <div id="box">
+        <div class="header">
+            <div class="loginbar">
+                <div class="container">
+                    <p class="users">
+                        <span class="span1" id="span1">10700602</span>
+                        <span class="span2" id="span2">位会员的选择</span>
+                    </p>
+                    <ul class="log-res">
+                        <li id="li1">
+                            <a href="../html/login.html" id="login">登录</a>
+                            <a href="###" id="inf">你的消息[4]</a>
+                        </li>
+                        <li>|</li>
+                        <li id="li2">
+                            <a href="../html/register.html" id="reg">注册</a>
+                            <a href="###" id="return">退出</a>
+                        </li>
+                    </ul>
+                    <ul class="rightsidebar">
+                        <li>会员俱乐部</li>
+                        <li>|</li>
+                        <li>签到</li>
+                        <li>|</li>
+                        <li id="account">
+                            我的账户
+                            <img src="../img/sanjiao.jpg" alt="">
+                        </li>
+                        <li>|</li>
+                        <li id="phone">
+                            <img src="../img/phone.jpg" alt=""> 手机版
+                        </li>
+                        <li>|</li>
+                        <li>设置勿扰</li>
+                    </ul>
+                    <ul class="acc-inf">
+                        <li>我的订单</li>
+                        <li>我的存酒库</li>
+                        <li>我的优惠券</li>
+                        <li>我的收藏夹</li>
+                    </ul>
+                    <ul class="app">
+                        <li class="app-top">APP手机专享</li>
+                        <li class="app-center">
+                            <dl>
+                                <dt>
+                                    <img src="../img/red-code.png" alt="手机端二维码">
+                                </dt>
+                                <dt>
+
+                                    <h2>下载也买酒客户端</h2>
+                                    <a href="">
+                                        <img src="../img/android.png" alt="">
+                                        <img src="../img/ios.png" alt="">
+                                    </a>
+
+                                </dt>
+                            </dl>
+                        </li>
+                        <li class="app-foot">
+                            <a href="">了解更多客户端优惠</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="head-main">
+                <div class="container">
+                    <div class="head-logo">
+                        <a href="../111.html" class="logo-site">
+                            <img src="../css/img/logo2.png" alt="">
+                        </a>
+                    </div>
+                    <div class="crumbCart" id="topLomoId">购物车</div>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="container pb20">
+                <div class="listCart">
+                    <h1></h1>
+                    <ul class="list" id="list">
+                        <li class="cartList cartLi_1-normal">
+                            <div class="radio radio_1-normal radio_zk">
+                                <span class="dd_sp_num cartType">
+                                    <b class="cartGoodsNum_1-normal">1</b>
+                                    <i></i>
+                                </span>
+                                <div class="radio_lf">
+                                    <input name="orderSource" type="checkbox" value="1-normal" class="mr5 cart_radio cartType cartType_1-normal" id="dispatching">
+                                    <label for="orderSource_0" class="cartType">
+                                    由也买酒配送</label>
+
+                                </div>
+                            </div>
+                            <div class="top cartDto cart_1-normal" id="orderSource_0_detail" style="display: block;">
+                                <div class="boxBorRed clearfix">
+                                    <div class="trTitle">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td height="34" width="8%" id="bar">
+                                                        <input class="e-selall selectAll selectAll_1-normal" type="checkbox" name="checkbox">
+                                                        <label for="checkbox0_t" style="cursor: pointer;">全选</label>
+                                                    </td>
+                                                    <td>商品名称</td>
+                                                    <td width="13%">单价</td>
+                                                    <td width="13%">数量</td>
+                                                    <td width="13%">小计</td>
+                                                    <td width="13%">&nbsp;</td>
+                                                </tr>
+                                                
+                                            </tbody>
+                                            
+                                        </table>
+                                    </div>
+                                    <div class="marginTop cartGoodsList cartGoodsList_1-normal" name="goodsList_carttype">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="inTable" id="tbHover" data-carttype="1-normal">
+
+                                            <tbody id="cartlist">
+                                                <!-- <tr class="border " data-key="681d173e-9522-4fbf-9559-dfdff9245615" data-carttype="1-normal" data-carttypeshow="1-normal">
+                                                    <td width="8%" class="btn_fx">
+                                                        <input type="checkbox" name="goodsSelect" value="6228323" class="goodsSelect">
+                                                    </td>
+                                                    <td width="8%" class="left">
+                                                        <a href="/goods/6228323.html" target="_blank" class="prod-img">
+                                                            <img src="../img/list1.png" style="width: 60px;height: 98px;">
+                                                        </a>
+                                                    </td>
+                                                    <td class="left">
+
+                                                        <a href="###" target="_blank" class="title">五粮液 股份公司 1995专卖店酒52度 500ml </a>
+                                                        <br>
+                                                        <br>
+                                                        <span class="red"></span>
+                                                        <br>
+                                                        <ins id="error_5152044"></ins>
+                                                    </td>
+                                                    <td width="13%" class="dj_price">
+                                                        ¥
+                                                        <b>288.0</b>
+                                                        <br>
+                                                    </td>
+                                                    <td width="13%">
+                                                        <span id="cartnum" class="jj_box">
+                                                            <input type="button" name="" id="sub" value="-">
+                                                            <input type="text" name="" id="" value="">
+                                                            <input type="button" name="" id="add" value="+">
+                                                        </span>
+                                                    </td>
+                                                    <td class="xj_price" width="13%">¥
+                                                        <b>288.0</b>
+                                                    </td>
+                                                    <td width="13%" class="btn_edit">
+                                                        <div class="tip_fram col-blue addFavoriteSuccess" style="display:none">
+                                                            <div class="tip_content">
+                                                                <p>
+                                                                    <i class="suc-icon"></i>加入收藏夹成功！</p>
+                                                            </div>
+                                                            <b class="tip_icon"></b>
+                                                        </div>
+                                                        <div class="tip_fram col-red addFavoriteFail" style="display:none">
+                                                            <div class="tip_content">
+                                                                <p>
+                                                                    <i class="ero-icon"></i>已经收藏过本商品！</p>
+                                                            </div>
+                                                            <b class="tip_icon"></b>
+                                                        </div>
+                                                        <a data-goodsid="6228323" class="addFavorite"> 加入收藏夹 </a>
+                                                        <br>
+                                                        <a class="btn-remove removeGoods" data-goodsnum="1">删除</a>
+                                                    </td>
+                                                </tr> -->
+                                                
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="trFooter">
+                                        <ul>
+                                            <li>
+                                                <input class="e-selall selectAll selectAll_1-normal" type="checkbox" name="checkbox" id="allcheck">
+                                                <label>全选</label>
+                                            </li>
+                                            <li class="removeSelectedGoods" style="cursor: pointer;">批量删除</li>
+                                            <li class="addSelectedFavorite clicktr">批量加入收藏夹</li>
+                                            <!--  <li class='clearIsNotStore'>清除缺货商品</li> -->
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="floatNav_buy" class="listCart listCart-fixed  cartCoupon cartCoupon_1-normal" data-carttype="1-normal">
+                <ul class="clearfix">
+                    <li class="buy q_select_hover">
+                        <div class="payexpress_panl" id="quick_check_out_div" style="display:none;"></div>
+                        <a class="buy">去结算</a>
+                        <a class="buy_bc memberGift memberGift_1-normal" style="cursor: default;">
+                            <font class="noGift" style="cursor: default;">没有可领取礼品 </font>
+                        </a>
+                        <div class="buy_yhq_y couponList_1-normal"> 商品没有符合优惠券使用条件
+                        </div>
+                        <a class="total_price"> 商品数量：
+                            <b class="total_num_1-normal" style=" font: bold 14px Arial;">0</b>&nbsp;件 &nbsp;&nbsp;
+                            <strong>应付金额</strong>
+                            <em>(不含运费)</em>：
+                            <i>¥</i>
+                            <b class="total total_1-normal">0.0</b>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="foot" >
+
+        </div>
+    </div>
+</body>
+<script src="../lib/jquery-1.10.1.min.js"></script>
+<script src="../lib/common.js"></script>
+<script src="../js/commhead.js"></script>
+<script src="../js/cart.js"></script>
+<script>
+    $(function(){
+        $('#foot').load('refoot.html',function(){
+            $('.footer').css('margin-top','150px')
+        })
+    })()
+</script>
+</html>
