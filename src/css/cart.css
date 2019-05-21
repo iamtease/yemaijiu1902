@@ -466,7 +466,7 @@ table, tbody, tfoot, thead, tr, th, td {
 .listCart ul li.buy a, .listCart ul li.buy .buy_yhq_y {
     float: left;
     display: inline;
-    margin-right: 10px;
+    /* margin-right: 10px; */
     height: 50px;
     background-image: none;
     color: #fff;
